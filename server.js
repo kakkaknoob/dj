@@ -1,7 +1,7 @@
 var express = require('express');
 var app = express();
 
-app.get('/', function(request, response)
+app.get('/home/pass/1/3/5', function(request, response)
 {
     response.end('Hello World');
 });
